@@ -5,7 +5,7 @@
 // The "i" variable is incremented by 1 each time the loop runs
 // The loop will run as long as "i" is less than 10
 // The loop will stop when "i" is equal to 10
-for (let i = 0; i < 10; i++) {
+for (let i = 0; i < 10; i = i + 1) {
   // We can put anything here inside the loop.
   // This will print the value of "i" to the console each time the loop runs.
   console.log('For loop!', i);
