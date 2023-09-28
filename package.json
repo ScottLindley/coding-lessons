@@ -1,0 +1,23 @@
+{
+  "name": "coding-lessons",
+  "version": "1.0.0",
+  "description": "",
+  "main": "adventure.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ScottLindley/coding-lessons.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ScottLindley/coding-lessons/issues"
+  },
+  "homepage": "https://github.com/ScottLindley/coding-lessons#readme",
+  "dependencies": {
+    "play-sound": "^1.1.6"
+  }
+}

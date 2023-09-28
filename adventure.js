@@ -1,4 +1,10 @@
 const prompt = require('./prompt');
+const player = require('play-sound')(opts = {});
+
+const MUSIC_FILE = process.env.ADVENTURE_MUSIC_FILE;;
+if (MUSIC_FILE) {
+  player.play(MUSIC_FILE);
+}
 
 async function main() {
   let answer = await prompt(`
